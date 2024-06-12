@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #00DDFF;
+}
+
+section {
+  min-height: 90vh;
+  width: 75%;
+  background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3));
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*font for headings*/
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*headings for normal text*/
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+#main-heading {
+  font-size: 50px;
+  color: #004aad;
+}
+
+#logo-img {
+  width: 25%;
+  height: auto;
+  border-radius: 25%;
+  /* display: block; */
+}
+
+#main-page-form {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+#main-page-form input {
+  /* width: 50%; */
+  margin: 10px;
+  height: 50px;
+  border-radius: 16px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  padding: 0 20px;
+  outline: none;
+}
+
+#searchButton {
+  /* width: 50%; */
+  margin: 10px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  padding: 0 20px;
+  outline: none;
+}
+
+#searchButton:hover {
+  background: white;
+  box-shadow: 6px 6px 20px rgba(66, 66, 66, 0.212)
+}
+
+
+
+
+#outerbox {
+  margin: 10px;
+  width: 50%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  padding: 0 20px;
+  /* outline: none; */
+}
+
+#humid-wind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.temp-weatherCond {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#weather-image {
+  width: 45%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+#weather-image2 {
+  width: 25%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+.humidity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.windSpeed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city h2 {
+  font-size: 30px;
+  color: #fa7421;
+}
+
+.date h2 {
+  color: #008243;
+}
+
+#humid-wind h2 {
+  color: #FF5757;
+}
